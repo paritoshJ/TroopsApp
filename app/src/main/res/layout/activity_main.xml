@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_side_drawer">
+
+   <androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <RelativeLayout
+          android:id="@+id/toolbarview"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+         <androidx.appcompat.widget.Toolbar
+             android:id="@+id/toolbar"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:background="@drawable/tool_bar_image"
+             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+         </androidx.appcompat.widget.Toolbar>
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Troops"
+             android:layout_centerInParent="true"
+             android:textSize="18sp"
+             android:fontFamily="@font/brandon_bld"
+             android:textStyle="bold"
+             android:gravity="center"
+             android:textColor="@color/white"/>
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/tab_rview"
+          android:layout_below="@+id/toolbarview"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+         <com.google.android.material.tabs.TabLayout
+             android:id="@+id/tabs"
+             android:visibility="gone"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_margin="5dp"
+             android:padding="3dp"
+             android:background="@drawable/border_color_view"
+             app:tabBackground="@drawable/custom_bg_tab"
+             app:tabIndicatorColor="@color/white"
+             app:tabTextColor="@color/white"
+             app:tabSelectedTextColor="@color/colorPrimaryDark"/>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginTop="5dp"
+             android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground">
+
+               <RadioButton
+                   android:id="@+id/feed_radio_btn"
+                   android:layout_width="wrap_content"
+                   android:button="@null"
+                   android:text="FEED"
+                   android:layout_marginEnd="10dp"
+                   android:textSize="16sp"
+                   android:checked="true"
+                   android:padding="10dp"
+                   android:textColor="@color/follow_radio_text_selector"
+                   android:fontFamily="@font/brandon_bld"
+                   android:layout_height="wrap_content" />
+
+
+               <ImageView
+                   android:id="@+id/feed_bottom_view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_arrow_drop_down_appcolor"
+                   android:layout_gravity="center"
+                   android:layout_centerHorizontal="true"
+                   android:layout_below="@+id/feed_radio_btn"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground">
+
+               <RadioButton
+                   android:id="@+id/social_radio_btn"
+                   android:layout_width="wrap_content"
+                   android:text="SOCIAL BUZZ"
+                   android:layout_marginStart="10dp"
+                   android:textColor="@color/follow_radio_text_selector"
+                   android:button="@null"
+                   android:padding="10dp"
+                   android:textSize="16sp"
+                   android:fontFamily="@font/brandon_bld"
+                   android:layout_height="wrap_content" />
+
+               <ImageView
+                   android:id="@+id/social_bottom_view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_arrow_drop_down_appcolor"
+                   android:layout_gravity="center"
+                   android:layout_centerHorizontal="true"
+                   android:visibility="invisible"
+                   android:layout_below="@+id/social_radio_btn"/>
+
+            </RelativeLayout>
+
+         </LinearLayout>
+
+      </RelativeLayout>
+
+   <androidx.viewpager.widget.ViewPager
+       android:id="@+id/home_view_pager"
+       android:layout_below="@id/tab_rview"
+       android:layout_width="match_parent"
+       android:layout_marginTop="8dp"
+       android:layout_height="match_parent"/>
+
+</RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="250dp"
+       android:layout_height="match_parent"
+       android:layout_gravity="start"
+       android:clickable="true"
+       android:orientation="vertical">
+
+
+   </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/createPost"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom|right"
+       android:layout_margin="20dp"
+       android:scaleType="center"
+       app:backgroundTint="@color/float_color"
+       android:src="@drawable/ic_add_post"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

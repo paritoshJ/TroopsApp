@@ -1,0 +1,201 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar.Indicator">
+        <item name="colorControlNormal">@color/dark_grey</item>
+        <item name="colorControlActivated">@color/gold</item>
+    </style>
+
+    <style name="PlayerTheme" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="TextInputLayout" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_duration" format="integer" />
+        <attr name="el_expanded" format="boolean" />
+        <attr name="el_parallax" format="float" />
+        <attr name="android:orientation"/>
+    </declare-styleable>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+    <!-- active thumb & track color (30% transparency) -->
+    <item name="colorControlActivated">#00AA00</item>
+
+    </style>
+
+
+    <style name="AppTheme.NoBackDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="AppTextFieldTheme" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">#00000000</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTextFieldHint">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextInputLayoutOne">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/AppTextFieldTheme</item>
+        <item name="hintTextAppearance">@style/AppTextFieldHint</item>
+    </style>
+
+
+    <style name="TextInputEditTextOne">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:textColor">@color/tw__light_gray</item>
+        <item name="fontFamily">@font/brandon_med</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextHeaderOne">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/brandon_med</item>
+    </style>
+
+
+    <style name="ButtonKimberlyOneTheme">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="ButtonKimberlyOne">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/ButtonKimberlyOneTheme</item>
+        <item name="fontFamily">@font/brandon_med</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+</resources>
+
+    <!--<resources>-->
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+    <!--</style>-->
+
+    <!--<style name="Theme.Transparent" parent="android:Theme">-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+    <!--</style>-->
+
+    <!--<style name="RatingBar" parent="Widget.AppCompat.RatingBar.Indicator">-->
+        <!--<item name="colorControlNormal">@color/dark_grey</item>-->
+        <!--<item name="colorControlActivated">@color/gold</item>-->
+    <!--</style>-->
+
+    <!--<style name="PlayerTheme" parent="android:Theme.Holo">-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowBackground">@android:color/black</item>-->
+    <!--</style>-->
+
+    <!--<style name="DialogAnimation">-->
+        <!--<item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/slide_out_down</item>-->
+    <!--</style>-->
+
+    <!--<style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">-->
+        <!--<item name="android:windowAnimationStyle">@style/DialogAnimation</item>-->
+    <!--</style>-->
+
+    <!--<style name="TextInputLayout" parent="TextAppearance.AppCompat">-->
+        <!--&lt;!&ndash; Hint color and label color in FALSE state &ndash;&gt;-->
+        <!--<item name="android:textColorHint">@color/white</item>-->
+        <!--<item name="android:textSize">16sp</item>-->
+        <!--&lt;!&ndash; Label color in TRUE state and bar color FALSE and TRUE State &ndash;&gt;-->
+        <!--<item name="colorAccent">@color/white</item>-->
+        <!--<item name="colorControlNormal">@color/white</item>-->
+        <!--<item name="colorControlActivated">@color/white</item>-->
+    <!--</style>-->
+
+
+    <!--<declare-styleable name="ExpandableLayout">-->
+        <!--<attr name="el_duration" format="integer" />-->
+        <!--<attr name="el_expanded" format="boolean" />-->
+        <!--<attr name="el_parallax" format="float" />-->
+        <!--<attr name="android:orientation"/>-->
+    <!--</declare-styleable>-->
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+    <!--<style name="SCBSwitch" parent="Theme.AppCompat.Light">-->
+        <!--&lt;!&ndash; active thumb & track color (30% transparency) &ndash;&gt;-->
+        <!--<item name="colorControlActivated">#00AA00</item>-->
+
+    <!--</style>-->
+<!--</resources>-->

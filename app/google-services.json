@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "753333696744",
+    "firebase_url": "https://troops-jatin.firebaseio.com",
+    "project_id": "troops-jatin",
+    "storage_bucket": "troops-jatin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753333696744:android:abbdd557e5907a0071f15d",
+        "android_client_info": {
+          "package_name": "com.social.troops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753333696744-b0s58dd3j9m628g9u0v3libv28q6mv3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.troops",
+            "certificate_hash": "1e3a0ffea53d7b173039d13456c9019b29e7b383"
+          }
+        },
+        {
+          "client_id": "753333696744-attmed3j02432o7fb8d7au7f6qs9tjpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBngl3RiIXICkoMJl0N9Zz7iZdZKnCPrPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753333696744-attmed3j02432o7fb8d7au7f6qs9tjpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

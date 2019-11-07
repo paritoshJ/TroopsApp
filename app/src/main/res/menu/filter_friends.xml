@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/view_friends"
+        android:icon="@drawable/ic_filter"
+        app:showAsAction="never"
+        android:title="View Friends">
+    </item>
+
+    <item
+        android:id="@+id/blocked_user"
+        android:icon="@drawable/ic_filter"
+        app:showAsAction="never"
+        android:title="Blocked Users">
+    </item>
+
+    <item
+        android:id="@+id/view_all_member"
+        android:icon="@drawable/ic_filter"
+        app:showAsAction="never"
+        android:title="View All Members">
+    </item>
+
+</menu>

@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">Troops</string>
+    <string name="help_support">Help &amp; Support></string>
+    <string name="open">open</string>
+    <string name="cancel">cancel</string>
+    <string name="view_your_groups">View \nYour Groups</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- change fb id -->
+    <string name="facebook_app_id">446923422757378</string>
+    <string name="fb_login_protocol_scheme">fb446923422757378</string>
+
+    <!--New Facebook APP ID
+    <string name="facebook_app_id">2280441525544630</string>
+    <string name="fb_login_protocol_scheme">fb2280441525544630</string> -->
+
+
+    <!--Old Facebook ID-->
+    <!--<string name="facebook_app_id">263584854220821</string>
+    <string name="fb_login_protocol_scheme">fb222560635023544</string>-->
+
+
+    <string name="privacy_policy_content">Privacy Policy</string>
+    <string name="my_friends">My Friends</string>
+    <string name="no_groups_available">No Groups Available</string>
+
+    <string name="google_maps_api_key">AIzaSyCjFQ81VT4w5JmcOiY6QgAJcAtip08S0Uk</string>
+    <!--Old-->
+    <!--<string name="google_maps_api_key">AIzaSyBTj5l7zV_G1Mc2puTPaaDdBIsGSxB-bzo</string>-->
+
+    <!--<string name="twitter_secret">DjFfYHQYmPsKBq2aurmL5D87u9zJMDuqYRnBeTwcItJriwPr5E</string>
+    <string name="twitter_key">9tbpCC7jaXBvoKGQ2RXr87m6O</string>-->
+
+    <string name="twitter_secret">sXOOPcuw2m29rzTwavsiOUoLmRlBCww73baTkeYWFqOPyCHxbw</string>
+    <string name="twitter_key">XwyNZAjjqxj8uV8r8qJPcGyXk</string>
+
+    <string name="shared_via">Shared Via</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="permission_request">This sample needs permission for camera and audio recording.</string>
+
+    <string name="video">Video</string>
+    <string name="feed_social_issue"><![CDATA[FEED & SOCIAL ISSUE]]></string>
+    <string name="add_new_post">ADD NEW POST</string>
+    <string name="groups">GROUPS</string>
+    <string name="let_s_verify_your_phone">Let\'s verify your phone number,\nWe have sent you 4 digit code</string>
+    <!--
+    <string name="let_s_follow_the_group_of_state_assembly_parliament_seat"><![CDATA[Let\'s Follow the group of State Assembly & Parliament seat]]></string>
+    -->
+
+    <string name="let_s_follow_the_group_of_state_assembly_parliament_seat"><![CDATA[Let\'s Follow the State Assembly & Parliamentary Groups]]></string>
+
+    <string name="let_s_create_and_join_the_channels_of_your_interest"><![CDATA[Let\'s Create and Join the Channels of your Interest]]></string>
+
+    <string name="_1560_followers">0\nFOLLOWERS</string>
+    <string name="_184_nfollowing">0\nFOLLOWING</string>
+    <string name="_0_nmy_group">0\nMy Channel</string>
+    <string name="other_groups">0\nOther Channels</string>
+    <string name="tap_to_view_post"><![CDATA[Tap to view your profile & your post]]></string>
+    <string name="feed_tutorial">You can share social media in feed and social issues of your constituency in social issue!!</string>
+    <string name="add_new_post_tutorial">Post on Social Media &amp; Social issues of your constituency from a single button!!</string>
+    <string name="group_tutorial">Join your constituency raise your voice through social issues and be the part of change!!</string>
+    <string name="grup_people_tutorial">Follow the people of your constituency, share your social media &amp;  social issues with them!!</string>
+    <string name="login_content">Our goal is to help the elected representatives understand the problems faced by the citizens at a micro as well as at a macro level in order to make better decisions concerning the welfare of their citizens.</string>
+
+    <string name="image1">image1</string>
+    <string name="image2">image2</string>
+    <string name="custom_channel_name">granth01</string>
+    <string name="people">People</string>
+    <string name="accept_term">Accept Term &amp; Condition</string>
+
+
+
+    ------------------------------------------------------------------
+
+
+    <string name="title_offers">Offers</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="title_refer">Refer</string>
+    <string name="title_my_account">Account</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="login_caps">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="register_here">Register Here</string>
+    <string name="join_us">Join us</string>
+    <string name="welcome_to">Welcome to&#160;</string>
+    <string name="dlz4me">dlz4me</string>
+    <string name="enter_your_info">Enter your information to login</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">
+        <u>Forgot password?</u>
+    </string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="mobile_number_aus">Mobile Phone Number (Australian Only)</string>
+    <string name="confirm_password">Enter Password Again</string>
+    <string name="or_enter_with">Or Enter with</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back_to_login"><![CDATA[<< Back to Login]]></string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="forgot_pass_info">Please enter your registered email address to reset your password.</string>
+
+
+    <string name="err_network_connection">Please check your network connection</string>
+    <string name="err_something_wrong">Something went wrong! Please try again later.</string>
+    <string name="err_server_connection">Couldn\'t connect to sever! Please try again later.</string>
+    <string name="err_email_empty">Please enter email address</string>
+    <string name="err_password_empty">Please enter password</string>
+    <string name="err_email_invalid">Please enter valid email address</string>
+    <string name="err_password_min_length">Password should be minimum 6 characters.</string>
+    <string name="err_first_name_empty">Please enter first name</string>
+    <string name="err_first_name_length">First name should be at least 2 characters.</string>
+    <string name="err_last_name_empty">Please enter last name</string>
+    <string name="error_last_name_length">Last name should be at least 2 characters.</string>
+    <string name="err_password_invalid">Password must contain at least one number, one special character and a combination of uppercase and lowercase letters.</string>
+
+    <string name="err_confirm_password_empty">Please enter confirm password.</string>
+    <string name="err_mismatch_password">Password and confirm password should same.</string>
+    <string name="err_mobile_empty">Please enter mobile number</string>
+    <string name="err_mobile_length_condition">Mobile number should be between 10 to 16 digits.</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="submit">Submit</string>
+    <string name="otp">OTP</string>
+    <string name="err_otp_empty">Please enter otp</string>
+    <string name="change_password">Change Password</string>
+    <string name="my_profile">My Profile</string>
+    <string name="settings">Settings</string>
+    <string name="map">Map</string>
+    <string name="online">Online</string>
+    <string name="in_store">In-Store</string>
+    <string name="search">Search</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="all_offers">All Offers</string>
+    <string name="latest_products">Latest Listings</string>
+
+    <string name="err_some_wrong">Something went wrong! Please try again later</string>
+    <string name="retry">Retry</string>
+    <string name="msg_please_wait">Please wait…</string>
+    <string name="no_vendors_available">No vendors available</string>
+    <string name="no_categories_available">No categories available</string>
+    <string name="no_list_available">No listing found</string>
+    <string name="offers">Offers</string>
+    <string name="profile">Profile</string>
+
+    <string name="info00">Copy &amp; paste your code at checkout</string>
+    <string name="otp_info">Enter the 6 digit code we sent you via email to continue</string>
+    <string name="otp_info_2">Enter the 6 digit codes we sent you via email and mobile to continue</string>
+    <string name="str_continue">Continue</string>
+    <string name="did_not_get_code">Didn\'t get the code?
+        <u>Resend Code</u>
+    </string>
+    <string name="go_to_offer">Go to offer</string>
+    <string name="ask_logout">Are you sure you want to logout?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="or">OR</string>
+    <string name="sign_in_social">Sign in with Social Networks</string>
+
+    <string name="msg_downloading_updates">Downloading updates...</string>
+    <string name="msg_loading">Loading...</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="change_your_password">Change Your Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+
+    <string name="msg_back_exit">Press back button again to exit</string>
+    <string name="err_current_password_empty">Please enter current password</string>
+    <string name="err_current_password_min_length">Please enter minimum 6 characters for password</string>
+    <string name="err_new_password_empty">Please enter new password</string>
+    <string name="err_confirm_new_password_empty">Please re-enter new password</string>
+
+    <!--Drawer-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="add_card">Add Card</string>
+    <string name="my_earnings">My Earnings</string>
+    <string name="available_to_transfer">Available to Transfer</string>
+    <string name="pending_cashback">Pending Cash Back</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="refer_a_friend">Refer a friend to start earning</string>
+    <string name="str_done">Done</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="err_enter_something">Please enter something to search</string>
+    <string name="vendors">vendors</string>
+
+    <string name="slide_1_desc">Never again miss a critical result for your patient</string>
+    <string name="slide_3_desc">Never again miss a critical result for your patient</string>
+    <string name="apply_offer">Apply Offer</string>
+    <string name="invite_your_friend_and_earn_money">Invite Your Friend And Earn Money</string>
+    <string name="your_referral_code">Your Referral Code</string>
+    <string name="copy">Copy</string>
+    <string name="invite_your_friends">Invite your friends to join <b>dlz4me</b> and get $10 cashback for each friend
+        that joins using your referral code.
+    </string>
+    <string name="invite_your_friends_1">Invite your friends to join <b>dlz4me</b> and get
+    </string>
+    <string name="invite_your_friends_2">cashback for each friend that joins using your referral code.</string>
+    <string name="change_language">Change Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="redeem">Redeem</string>
+    <string name="redeem_history">Redeem History</string>
+    <string name="amount">Amout</string>
+    <string name="select_account">Select Account</string>
+    <string name="add_account">Add Account</string>
+    <string name="enter_account_number">Enter account number.</string>
+    <string name="enter_account_ifsc">Enter IFSC code.</string>
+    <string name="err_name_empty">Please enter name.</string>
+    <string name="err_account_number_empty">Please enter account number.</string>
+    <string name="err_ifsc_empty">Please enter IFSC code</string>
+    <string name="say_something">Say something...</string>
+    <string name="message">Message</string>
+    <string name="err_amount_empty">Please enter amount</string>
+    <string name="err_select_account">Please select an account</string>
+    <string name="err_message_empty">Please enter message</string>
+    <string name="no_transactions_yet">No transactions yet</string>
+    <string name="no_history_available">No history available</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_bank_name">Enter Bank Name</string>
+    <string name="err_bank_name_empty">Please enter bank name</string>
+    <string name="err_amount_invalid">Invalid redeem amount</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="help">Help</string>
+    <string name="name">Name</string>
+    <string name="no_data_available">No data available</string>
+    <string name="referal_code">Referral Code</string>
+    <string name="err_referal_empty">Please enter referal code.</string>
+    <string name="or_already_register">Already Registered?</string>
+    <string name="my_products">My Products</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_filter">Filters</string>
+    <string name="title_messages">Messages</string>
+    <string name="no_products_available">No listings found.</string>
+    <string name="skip">Skip</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_details">Product Detail</string>
+    <string name="send_message_to_seller">Send message to seller</string>
+    <string name="apply">Apply</string>
+    <string name="no_messages_available">No messages available.</string>
+    <string name="no_user_available">No user available</string>
+    <string name="view_all_message">View All Message</string>
+    <string name="txt_device_type">Device Type</string>
+    <string name="filter">Filters</string>
+    <string name="reset">Reset</string>
+
+</resources>

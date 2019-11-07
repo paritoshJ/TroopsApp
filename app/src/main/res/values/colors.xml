@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#4a4c63</color>
+    <color name="colorPrimaryDark">#4d528b</color>
+    <color name="colorAccent">#948bba</color>-->
+
+    <color name="colorPrimary">#1741bb</color>
+    <color name="colorPrimaryDark">#1741bb</color>
+    <color name="colorAccent">#1741bb</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#79000000</color>
+    <color name="light_grey">#dcdcdc</color>
+    <color name="grey">#8d9dde</color>
+    <color name="text_light_grey">#9eeaeaea</color>
+    <color name="sky_blue">#1a6349</color>
+    <color name="top_color">#1741bb</color>
+    <color name="text_color">#2a7af5</color>
+    <color name="float_color">#126bff</color>
+    <color name="dark_grey">#8e8d8d</color>
+    <color name="red">#d90101</color>
+    <color name="gold">#FEC400</color>
+    <color name="post_bg_color">#e9e8e8</color>
+    <color name="gallery_image_selected">#66bb1822</color>
+    <color name="gallery_image_unselected">#00bb1822</color>
+    <color name="colorInitial">#FFC107</color>
+    <color name="colorProgress">#00796B</color>
+    <color name="navigationTextColor">#9e9e9e</color>
+    <color name="navigationTextColorSelected">#126bff</color>
+    <color name="titleSelectedTabColor">#3F51B5</color>
+    <color name="light_green">#FF43D551</color>
+
+</resources>

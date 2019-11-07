@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+
+<declare-styleable name="LinearTimerView">
+
+    <attr name="radius" format="dimension"/>
+
+    <attr name="strokeWidth" format="dimension"/>
+
+    <attr name="initialColor" format="color"/>
+
+    <attr name="progressColor" format="color"/>
+
+    <attr name="startingPoint" format="integer"/>
+
+    <attr name="preFillPoint" format="integer"/>
+
+</declare-styleable>
+
+
+<declare-styleable name="Toggle">
+
+    <attr name="textOn" format="string"/>
+
+    <attr name="textOff" format="string"/>
+
+    <attr name="colorOff" format="color"/>
+
+    <attr name="colorOn" format="color"/>
+
+    <attr name="colorBorder" format="color"/>
+
+    <attr name="colorDisabled" format="color"/>
+
+    <attr name="on" format="boolean"/>
+
+    <attr name="android:textSize"/>
+
+    <attr name="android:enabled"/>
+
+</declare-styleable>
+
+</resources>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<resources>-->
+    <!--<declare-styleable name="LinearTimerView"><attr format="dimension" name="radius"/><attr format="dimension" name="strokeWidth"/><attr format="color" name="initialColor"/><attr format="color" name="progressColor"/><attr format="integer" name="startingPoint"/><attr format="integer" name="preFillPoint"/></declare-styleable>-->
+    <!--</resources>-->

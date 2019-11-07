@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/coordinatorLayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"
+                android:text="VERIFY PHONE NO"
+                android:fontFamily="@font/brandon_bld"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/let_s_verify_your_phone"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/brandon_reg"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:layout_below="@+id/email_layout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/layout_otp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editTextone"
+                            android:layout_width="40dp"
+                            android:layout_height="42dp"
+                            android:inputType="numberPassword"
+                            android:maxLength="1"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:nextFocusRight="@+id/editTexttwo">
+
+                            <requestFocus />
+                        </EditText>
+
+                        <EditText
+                            android:id="@+id/editTexttwo"
+                            android:layout_width="40dp"
+                            android:layout_height="42dp"
+                            android:inputType="numberPassword"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:nextFocusRight="@+id/editTextthree"
+                            android:maxLength="1"/>
+
+                        <EditText
+                            android:id="@+id/editTextthree"
+                            android:layout_width="40dp"
+                            android:layout_height="42dp"
+                            android:inputType="numberPassword"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:nextFocusDown="@+id/editTextfour"
+                            android:maxLength="1"/>
+
+                        <EditText
+                            android:id="@+id/editTextfour"
+                            android:layout_width="40dp"
+                            android:layout_height="42dp"
+                            android:inputType="numberPassword"
+                            android:gravity="center"
+                            android:maxLength="1"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:layout_gravity="center"
+                            android:text="Don't you get the SMS"
+                            android:textColor="@color/dark_grey"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/brandon_bld"/>
+
+                        <TextView
+                            android:id="@+id/resend_tview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:layout_gravity="center"
+                            android:text="RESEND"
+                            android:padding="5dp"
+                            android:textColor="@color/top_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/brandon_bld"/>
+
+
+
+                    </LinearLayout>
+
+
+
+
+                    <Button
+                        android:id="@+id/verify_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_round_drawer_name"
+                        android:text="DONE"
+                        android:layout_marginTop="25dp"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/brandon_bld"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
