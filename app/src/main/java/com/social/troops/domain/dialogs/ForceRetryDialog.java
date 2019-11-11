@@ -1,12 +1,13 @@
-package com.social.troops.newWork.domain.dialogs;
+package com.social.troops.domain.dialogs;
 
 import android.content.Context;
 import android.content.DialogInterface;
 import android.text.TextUtils;
 
 import androidx.appcompat.app.AlertDialog;
-import com.app.marketplace.sellBuyDevice.R;
-import com.app.marketplace.sellBuyDevice.domain.annotations.DataRequestType;
+
+import com.social.troops.R;
+import com.social.troops.domain.annotations.DataRequestType;
 
 
 /**

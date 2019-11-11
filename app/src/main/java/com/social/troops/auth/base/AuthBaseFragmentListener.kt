@@ -1,6 +1,6 @@
-package com.social.troops.newWork.auth.base
+package com.social.troops.auth.base
 
-import com.social.troops.newWork.domain.models.User
+import com.social.troops.domain.models.User
 
 
 interface AuthBaseFragmentListener {

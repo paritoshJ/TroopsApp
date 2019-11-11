@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.base
+package com.social.troops.domain.base
 
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
@@ -12,9 +12,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.google.android.material.snackbar.Snackbar
-import com.social.troops.newWork.data.RepoListener
-import com.social.troops.newWork.domain.dialogs.ProgressDialog
-import com.social.troops.newWork.domain.utils.Utils
+import com.social.troops.data.RepoListener
+import com.social.troops.domain.dialogs.ProgressDialog
+import com.social.troops.domain.utils.Utils
 
 
 abstract class BaseActivity<T : BaseViewModel, B : ViewDataBinding> : AppCompatActivity(), RepoListener {

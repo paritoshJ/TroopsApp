@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.base
+package com.social.troops.domain.base
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

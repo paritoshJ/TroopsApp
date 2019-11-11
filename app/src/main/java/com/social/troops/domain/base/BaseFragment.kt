@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.base
+package com.social.troops.domain.base
 
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
@@ -13,9 +13,9 @@ import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.social.troops.newWork.data.RepoListener
-import com.social.troops.newWork.domain.dialogs.ProgressDialog
-import com.social.troops.newWork.domain.utils.Utils
+import com.social.troops.data.RepoListener
+import com.social.troops.domain.dialogs.ProgressDialog
+import com.social.troops.domain.utils.Utils
 import java.lang.annotation.Retention
 import java.lang.annotation.RetentionPolicy
 

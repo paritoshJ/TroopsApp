@@ -1,9 +1,9 @@
-package com.app.marketplace.sellBuyDevice.data.remote
+package  com.social.troops.data.remote
 
-import com.app.marketplace.sellBuyDevice.AppManager
-import com.app.marketplace.sellBuyDevice.R
-import com.app.marketplace.sellBuyDevice.data.RepoListener
-import com.app.marketplace.sellBuyDevice.domain.annotations.DataRequestType
+import com.social.troops.AppManager
+import com.social.troops.R
+import com.social.troops.data.RepoListener
+import com.social.troops.domain.annotations.DataRequestType
 import kotlinx.coroutines.Deferred
 import retrofit2.HttpException
 

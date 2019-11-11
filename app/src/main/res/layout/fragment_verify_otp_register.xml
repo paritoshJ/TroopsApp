@@ -6,7 +6,7 @@
 
         <variable
             name="viewmodel"
-            type="com.social.troops.newWork.auth.verify_otp.register.VerifyRegistrationOtpViewModel" />
+            type="com.social.troops.auth.verify_otp.register.VerifyRegistrationOtpViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

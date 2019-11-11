@@ -1,7 +1,6 @@
-package com.app.marketplace.sellBuyDevice.domain.utils
-
+package com.social.troops.domain.utils
 import android.util.Log
-import com.app.marketplace.sellBuyDevice.AppManager
+import com.social.troops.AppManager
 
 class Logger {
 

@@ -1,9 +1,9 @@
-package com.social.troops.newWork.data.remote
+package com.social.troops.data.remote
 
 import android.text.TextUtils
 import com.app.marketplace.sellBuyDevice.data.remote.ApiService
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import com.social.troops.newWork.AppManager
+import com.social.troops.AppManager
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.annotations;
+package com.social.troops.domain.annotations;
 
 import androidx.annotation.IntDef;
 

@@ -26,7 +26,7 @@ public class CancelableRetryDialog {
      * @param dialogListener the dialog listener
      */
     public CancelableRetryDialog(Context context,
-                                 @com.social.troops.newWork.domain.annotations.DataRequestType final int requesterType,
+                                 @com.social.troops.domain.annotations.DataRequestType final int requesterType,
                                  String message,
                                  final CancelableRetryDialogListener dialogListener) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
@@ -67,7 +67,7 @@ public class CancelableRetryDialog {
          * @param dialog        the dialog
          * @param requesterType the requester type
          */
-        void onRetry(DialogInterface dialog, @com.social.troops.newWork.domain.annotations.DataRequestType int requesterType);
+        void onRetry(DialogInterface dialog, @com.social.troops.domain.annotations.DataRequestType int requesterType);
 
         /**
          * On cancel.
@@ -75,6 +75,6 @@ public class CancelableRetryDialog {
          * @param dialog        the dialog
          * @param requesterType the requester type
          */
-        void onCancel(DialogInterface dialog, @com.social.troops.newWork.domain.annotations.DataRequestType int requesterType);
+        void onCancel(DialogInterface dialog, @com.social.troops.domain.annotations.DataRequestType int requesterType);
     }
 }

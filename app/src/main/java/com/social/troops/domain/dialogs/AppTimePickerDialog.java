@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.dialogs;
+package com.social.troops.domain.dialogs;
 
 import android.app.Dialog;
 import android.app.TimePickerDialog;

@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.transformers
+package com.social.troops.domain.transformers
 
 import android.view.View
 

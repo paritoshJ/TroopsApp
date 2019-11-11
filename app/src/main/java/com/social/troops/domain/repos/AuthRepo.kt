@@ -1,11 +1,11 @@
-package com.social.troops.newWork.domain.repos
+package com.social.troops.domain.repos
 
-import com.app.marketplace.sellBuyDevice.data.remote.RemoteRepo
-import com.app.marketplace.sellBuyDevice.domain.models.User
-import com.social.troops.newWork.data.RepoListener
-import com.social.troops.newWork.data.remote.ApiClient
-import com.social.troops.newWork.domain.annotations.DataRequestType
-import com.social.troops.newWork.domain.base.BaseResponse
+import com.social.troops.data.RepoListener
+import com.social.troops.data.remote.ApiClient
+import com.social.troops.data.remote.RemoteRepo
+import com.social.troops.domain.annotations.DataRequestType
+import com.social.troops.domain.base.BaseResponse
+import com.social.troops.domain.models.User
 import kotlinx.coroutines.Deferred
 
 class AuthRepo(val repoListener: RepoListener) {
@@ -137,14 +137,5 @@ class AuthRepo(val repoListener: RepoListener) {
     }
 
 
-    suspend fun requestSendReferalCode(refCode: String): BaseResponse<Void>? {
-        return object : RemoteRepo<BaseResponse<Void>> {
-            override val deferred: Deferred<BaseResponse<Void>>
-                get() = ApiClient.apiService.requestSaveReferal(refCode)
-            override val dataRequestType: Int
-                get() = DataRequestType.SAVE_REFERAL_CODE
-            override val repoListener: RepoListener
-                get() = this@AuthRepo.repoListener
-        }.executeApiRequest()
-    }
+
 }

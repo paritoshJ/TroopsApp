@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.dialogs;
+package com.social.troops.domain.dialogs;
 
 import android.content.Context;
 import android.content.DialogInterface;

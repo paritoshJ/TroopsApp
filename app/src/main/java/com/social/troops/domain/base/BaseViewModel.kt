@@ -1,8 +1,8 @@
-package com.social.troops.newWork.domain.base
+package com.social.troops.domain.base
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.social.troops.newWork.data.RepoListener
+import com.social.troops.data.RepoListener
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

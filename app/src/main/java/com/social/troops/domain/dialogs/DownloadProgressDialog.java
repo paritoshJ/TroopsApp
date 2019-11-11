@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.dialogs;
+package com.social.troops.domain.dialogs;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -7,7 +7,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import com.app.marketplace.sellBuyDevice.R;
+
+import com.social.troops.R;
 
 
 public class DownloadProgressDialog extends BaseDialog {

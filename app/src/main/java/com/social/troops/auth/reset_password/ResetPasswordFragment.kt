@@ -1,4 +1,4 @@
-package com.social.troops.newWork.auth.reset_password
+package com.social.troops.auth.reset_password
 
 import android.os.Bundle
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import com.social.troops.R
 import com.social.troops.databinding.FragmentResetPasswordBinding
-import com.social.troops.newWork.auth.base.AuthBaseFragment
+import com.social.troops.auth.base.AuthBaseFragment
 
 class ResetPasswordFragment : AuthBaseFragment<ResetPasswordViewModel, FragmentResetPasswordBinding>() {
 

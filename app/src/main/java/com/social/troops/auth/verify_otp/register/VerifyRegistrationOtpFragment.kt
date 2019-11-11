@@ -1,4 +1,4 @@
-package com.social.troops.newWork.auth.verify_otp.register
+package com.social.troops.auth.verify_otp.register
 
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -12,10 +12,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.social.troops.R
 import com.social.troops.databinding.FragmentVerifyOtpRegisterBinding
-import com.social.troops.newWork.AppManager
-import com.social.troops.newWork.auth.base.AuthBaseFragment
-import com.social.troops.newWork.data.RepoListener
-import com.social.troops.newWork.domain.models.User
+import com.social.troops.AppManager
+import com.social.troops.auth.base.AuthBaseFragment
+import com.social.troops.data.RepoListener
+import com.social.troops.domain.models.User
 import java.util.concurrent.TimeUnit
 import java.text.DecimalFormat
 

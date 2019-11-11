@@ -1,4 +1,4 @@
-package com.social.troops.newWork.data;
+package com.social.troops.data;
 
 import com.google.gson.annotations.SerializedName;
 

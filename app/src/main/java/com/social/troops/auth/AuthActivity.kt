@@ -1,4 +1,4 @@
-package com.social.troops.newWork.auth
+package com.social.troops.auth
 
 import android.content.Context
 import android.content.Intent
@@ -7,15 +7,15 @@ import android.util.Log
 import androidx.fragment.app.FragmentManager
 import com.social.troops.R
 import com.social.troops.databinding.ActivityAuthBinding
-import com.social.troops.newWork.auth.base.AuthBaseFragmentListener
-import com.social.troops.newWork.auth.base.forgot_password.ForgotPasswordFragment
-import com.social.troops.newWork.auth.login.LoginFragment
-import com.social.troops.newWork.auth.register.RegisterFragment
-import com.social.troops.newWork.auth.reset_password.ResetPasswordFragment
-import com.social.troops.newWork.auth.verify_otp.forgot_password.VerifyForgotPasswordOtpFragment
-import com.social.troops.newWork.auth.verify_otp.register.VerifyRegistrationOtpFragment
-import com.social.troops.newWork.domain.base.BaseActivity
-import com.social.troops.newWork.domain.models.User
+import com.social.troops.auth.base.AuthBaseFragmentListener
+import com.social.troops.auth.base.forgot_password.ForgotPasswordFragment
+import com.social.troops.auth.login.LoginFragment
+import com.social.troops.auth.register.RegisterFragment
+import com.social.troops.auth.reset_password.ResetPasswordFragment
+import com.social.troops.auth.verify_otp.forgot_password.VerifyForgotPasswordOtpFragment
+import com.social.troops.auth.verify_otp.register.VerifyRegistrationOtpFragment
+import com.social.troops.domain.base.BaseActivity
+import com.social.troops.domain.models.User
 
 class AuthActivity : BaseActivity<AuthMainViewModel, ActivityAuthBinding>(), AuthBaseFragmentListener {
 
@@ -70,12 +70,12 @@ class AuthActivity : BaseActivity<AuthMainViewModel, ActivityAuthBinding>(), Aut
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if (intent != null && intent.extras != null && intent.extras.containsKey(ARG_VIEW_TYPE))
-            viewType = intent.extras.getInt(ARG_VIEW_TYPE)
-        if (intent != null && intent.extras != null && intent.extras.containsKey(ARG_SHOULD_NAV_BACK))
-            shouldNavigateBack = intent.extras.getBoolean(ARG_SHOULD_NAV_BACK)
-        if (intent != null && intent.extras != null && intent.extras.containsKey(ARG_SHOULD_NAV_LOGIN))
-            shouldNavigateToLogin = intent.extras.getBoolean(ARG_SHOULD_NAV_LOGIN)
+        if (intent != null && intent.extras != null && intent.extras!!.containsKey(ARG_VIEW_TYPE))
+            viewType = intent.extras!!.getInt(ARG_VIEW_TYPE)
+        if (intent != null && intent.extras != null && intent.extras!!.containsKey(ARG_SHOULD_NAV_BACK))
+            shouldNavigateBack = intent.extras!!.getBoolean(ARG_SHOULD_NAV_BACK)
+        if (intent != null && intent.extras != null && intent.extras!!.containsKey(ARG_SHOULD_NAV_LOGIN))
+            shouldNavigateToLogin = intent.extras!!.getBoolean(ARG_SHOULD_NAV_LOGIN)
 
         when (viewType) {
             VIEW_TYPE_LOGIN -> navigateToLoginFragment()

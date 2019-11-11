@@ -1,4 +1,4 @@
-package com.social.troops.newWork.auth.login
+package com.social.troops.auth.login
 
 import android.content.Context
 import android.text.TextUtils
@@ -11,7 +11,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.social.troops.R
-import com.social.troops.newWork.domain.utils.Utils
+import com.social.troops.domain.utils.Utils
 
 
 class GetUserEmailDialog(val context: Context, val dialogListener: GetUserEmailDialogListener) {

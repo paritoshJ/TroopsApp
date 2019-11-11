@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.utils;
+package com.social.troops.domain.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,7 +18,6 @@ import android.util.Patterns;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import androidx.annotation.RawRes;
-import com.app.marketplace.sellBuyDevice.domain.utils.Logger;
 
 import java.io.*;
 import java.security.MessageDigest;

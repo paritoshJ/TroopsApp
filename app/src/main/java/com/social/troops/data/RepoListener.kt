@@ -1,6 +1,6 @@
-package com.social.troops.newWork.data
+package com.social.troops.data
 
-import com.social.troops.newWork.domain.annotations.DataRequestType
+import com.social.troops.domain.annotations.DataRequestType
 
 
 interface RepoListener {

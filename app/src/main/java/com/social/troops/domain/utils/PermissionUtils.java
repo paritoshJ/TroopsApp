@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.utils;
+package com.social.troops.domain.utils;
 
 import android.Manifest;
 import android.content.Context;

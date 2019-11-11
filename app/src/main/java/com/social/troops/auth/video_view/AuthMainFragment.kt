@@ -1,4 +1,4 @@
-package com.social.troops.newWork.auth.video_view
+package com.social.troops.auth.video_view
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,9 +6,7 @@ import android.text.TextUtils
 import android.view.View
 import androidx.annotation.NonNull
 import androidx.appcompat.app.AlertDialog
-import com.app.marketplace.sellBuyDevice.data.remote.RemoteRepo
 import com.google.android.gms.tasks.OnCompleteListener
-import com.google.firebase.iid.FirebaseInstanceId
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.launch
 import android.content.Context.MODE_PRIVATE
@@ -17,14 +15,14 @@ import android.util.Log
 import com.social.troops.R
 import com.social.troops.databinding.FragmentAuthmainBinding
 import com.social.troops.databinding.FragmentLoginBinding
-import com.social.troops.newWork.AppManager
-import com.social.troops.newWork.auth.AuthMainViewModel
-import com.social.troops.newWork.auth.base.AuthBaseFragment
-import com.social.troops.newWork.data.RepoListener
-import com.social.troops.newWork.data.remote.ApiClient
-import com.social.troops.newWork.domain.annotations.DataRequestType
-import com.social.troops.newWork.domain.base.BaseResponse
-import com.social.troops.newWork.domain.models.User
+import com.social.troops.AppManager
+import com.social.troops.auth.AuthMainViewModel
+import com.social.troops.auth.base.AuthBaseFragment
+import com.social.troops.data.RepoListener
+import com.social.troops.data.remote.ApiClient
+import com.social.troops.domain.annotations.DataRequestType
+import com.social.troops.domain.base.BaseResponse
+import com.social.troops.domain.models.User
 
 
 class AuthMainFragment : AuthBaseFragment<SplashVideoViewModel, FragmentAuthmainBinding>(), RepoListener {

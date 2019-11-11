@@ -6,7 +6,7 @@
 
         <variable
                 name="viewmodel"
-                type="com.social.troops.newWork.auth.register.RegisterViewModel"/>
+                type="com.social.troops.auth.register.RegisterViewModel"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -24,6 +24,7 @@
                 android:fillViewport="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                >
 
@@ -31,6 +32,7 @@
                 android:id="@+id/registeration_user_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
                 android:visibility="visible"
                 android:orientation="vertical">
 

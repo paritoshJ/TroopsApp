@@ -1,13 +1,13 @@
-package com.social.troops.newWork.auth.forgot_password
+package com.social.troops.auth.forgot_password
 
 import android.text.TextUtils
 import com.social.troops.R
-import com.social.troops.newWork.AppManager
-import com.social.troops.newWork.auth.base.forgot_password.ForgotPasswordFragment
-import com.social.troops.newWork.domain.base.BaseFragment
-import com.social.troops.newWork.domain.base.BaseViewModel
-import com.social.troops.newWork.domain.repos.AuthRepo
-import com.social.troops.newWork.domain.utils.Utils
+import com.social.troops.AppManager
+import com.social.troops.auth.base.forgot_password.ForgotPasswordFragment
+import com.social.troops.domain.base.BaseFragment
+import com.social.troops.domain.base.BaseViewModel
+import com.social.troops.domain.repos.AuthRepo
+import com.social.troops.domain.utils.Utils
 import kotlinx.coroutines.launch
 
 class ForgotPasswordViewModel : BaseViewModel() {

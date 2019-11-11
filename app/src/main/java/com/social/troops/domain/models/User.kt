@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.models
+package com.social.troops.domain.models
 
 
 import android.os.Parcel

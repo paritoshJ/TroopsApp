@@ -6,7 +6,7 @@
 
         <variable
             name="viewmodel"
-            type="com.social.troops.newWork.auth.login.LoginViewModel" />
+            type="com.social.troops.auth.login.LoginViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -17,19 +17,21 @@
             android:focusable="true">
 
         <androidx.core.widget.NestedScrollView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:fillViewport="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             >
 
             <LinearLayout
                 android:id="@+id/login_user_view"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:visibility="gone"
+                android:layout_height="match_parent"
+                 android:gravity="center_vertical"
+                android:visibility="visible"
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView

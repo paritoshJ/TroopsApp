@@ -1,9 +1,9 @@
-package com.social.troops.newWork.auth.base
+package com.social.troops.auth.base
 
 import android.content.Context
 import androidx.databinding.ViewDataBinding
-import com.social.troops.newWork.domain.base.BaseFragment
-import com.social.troops.newWork.domain.base.BaseViewModel
+import com.social.troops.domain.base.BaseFragment
+import com.social.troops.domain.base.BaseViewModel
 
 abstract class AuthBaseFragment<T : BaseViewModel, B : ViewDataBinding> : BaseFragment<T, B>() {
 

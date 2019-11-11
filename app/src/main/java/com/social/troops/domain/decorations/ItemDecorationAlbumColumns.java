@@ -1,4 +1,4 @@
-package com.social.troops.newWork.domain.decorations;
+package com.social.troops.domain.decorations;
 
 import android.graphics.Rect;
 import android.view.View;

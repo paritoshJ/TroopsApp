@@ -1,12 +1,12 @@
-package com.social.troops.newWork.auth.base.forgot_password
+package com.social.troops.auth.base.forgot_password
 
 import android.os.Bundle
 import android.view.View
 import com.social.troops.R
 import com.social.troops.databinding.FragmentForgotPasswordBinding
-import com.social.troops.newWork.auth.base.AuthBaseFragment
-import com.social.troops.newWork.auth.forgot_password.ForgotPasswordViewModel
-import com.social.troops.newWork.data.RepoListener
+import com.social.troops.auth.base.AuthBaseFragment
+import com.social.troops.auth.forgot_password.ForgotPasswordViewModel
+import com.social.troops.data.RepoListener
 
 class ForgotPasswordFragment : AuthBaseFragment<ForgotPasswordViewModel, FragmentForgotPasswordBinding>(),
         RepoListener {

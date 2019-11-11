@@ -1,7 +1,7 @@
-package com.social.troops.newWork.auth
+package com.social.troops.auth
 
 import androidx.lifecycle.MutableLiveData
-import com.social.troops.newWork.domain.base.BaseViewModel
+import com.social.troops.domain.base.BaseViewModel
 import kotlinx.coroutines.launch
 
 class AuthMainViewModel : BaseViewModel() {

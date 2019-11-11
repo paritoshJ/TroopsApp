@@ -1,4 +1,4 @@
-package com.social.troops.newWork.auth.verify_otp.forgot_password
+package com.social.troops.auth.verify_otp.forgot_password
 
 import android.os.Bundle
 import android.text.Editable
@@ -10,8 +10,8 @@ import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import com.social.troops.R
 import com.social.troops.databinding.FragmentVerifyOtpForgotPasswordBinding
-import com.social.troops.newWork.auth.base.AuthBaseFragment
-import com.social.troops.newWork.data.RepoListener
+import com.social.troops.auth.base.AuthBaseFragment
+import com.social.troops.data.RepoListener
 
 
 class VerifyForgotPasswordOtpFragment : AuthBaseFragment<VerifyForgotPasswordOtpViewModel, FragmentVerifyOtpForgotPasswordBinding>(),

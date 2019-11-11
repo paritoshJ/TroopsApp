@@ -1,11 +1,11 @@
-package com.social.troops.newWork.auth.verify_otp.forgot_password
+package com.social.troops.auth.verify_otp.forgot_password
 
 import android.text.TextUtils
 import com.social.troops.R
-import com.social.troops.newWork.AppManager
-import com.social.troops.newWork.domain.base.BaseFragment
-import com.social.troops.newWork.domain.base.BaseViewModel
-import com.social.troops.newWork.domain.repos.AuthRepo
+import com.social.troops.AppManager
+import com.social.troops.domain.base.BaseFragment
+import com.social.troops.domain.base.BaseViewModel
+import com.social.troops.domain.repos.AuthRepo
 import kotlinx.coroutines.launch
 
 class VerifyForgotPasswordOtpViewModel : BaseViewModel() {

@@ -1,12 +1,12 @@
-package com.social.troops.newWork
+package com.social.troops
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.text.TextUtils
 import androidx.annotation.StringRes
 import com.google.gson.Gson
-import com.social.troops.newWork.domain.models.User
-import com.social.troops.newWork.domain.utils.Utils
+import com.social.troops.domain.models.User
+import com.social.troops.domain.utils.Utils
 
 class AppManager(context: Context) {
 

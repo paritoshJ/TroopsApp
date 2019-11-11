@@ -1,10 +1,10 @@
-package com.social.troops.newWork.auth.register
+package com.social.troops.auth.register
 
 import android.os.Bundle
 import android.view.View
 import com.social.troops.R
 import com.social.troops.databinding.FragmentRegisterBinding
-import com.social.troops.newWork.auth.base.AuthBaseFragment
+import com.social.troops.auth.base.AuthBaseFragment
 
 class RegisterFragment : AuthBaseFragment<RegisterViewModel, FragmentRegisterBinding>() {
 
